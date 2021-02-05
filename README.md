@@ -3,7 +3,7 @@
 ## Overview of the analysis: 
 The purpose of this analysis was to evaluate the performance of different models to predict risk.
 
-## Results:  describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+## Results:  
   1. Oversampling: The accuracy score is .5, the precision is .99 and the recall score is .99.
   ![oversample](oversample.PNG)
   2. Smote Oversampling:  The accuracy score is .62, the precision is .99 and the recall score is .64.
@@ -17,4 +17,5 @@ The purpose of this analysis was to evaluate the performance of different models
   6. Easy ensemble ADABoost Classifier:  The accuracy score is 1, the precision is 1 and the recall score is 1.
   ![easy](easy.PNG)
 
-Summary: The easy ensemble ADABoost Classifier is the best model to use because the accuracy score, precision and recall scores are the highest. The oversampling model has the lowest accuracy score so it would not be the best model to use. 
+## Summary:
+The easy ensemble ADABoost Classifier is the best model to use because the accuracy score, precision and recall scores are the highest. The oversampling model has the lowest accuracy score so it would not be the best model to use. 
